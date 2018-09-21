@@ -1,5 +1,6 @@
 #pragma once
 
+
 namespace kraEngineSDK {
   struct kraMath {
 
@@ -154,7 +155,7 @@ namespace kraEngineSDK {
     T kraPow(T T1, T T2)
     {
       T base= T1;
-      for (int i = 0; i < std::abs(T2); i++)
+      for (int i = 0; i < abs(T2); i++)
       {
         base *= T1;
       }
@@ -169,17 +170,9 @@ namespace kraEngineSDK {
       }
     }
 
-    template<typename T>
-    T ldexp(T T1)
-    {
-      return std::ldexp(T);
-    }
 
-    template<typename T>
-    T ldexp(T T1)
-    {
-      return std::ldexp(T);
-    }
+
+
 /*****************************************************************************/
  /**
 * Misc functions
@@ -193,7 +186,7 @@ namespace kraEngineSDK {
     }
 
     template<class T>
-    static T kraAbs(T Ta)
+    static T abs(T Ta)
     {
       if (Ta > 0)
         return Ta;
