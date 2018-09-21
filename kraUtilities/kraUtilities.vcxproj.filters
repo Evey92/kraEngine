@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Include">
+      <UniqueIdentifier>{7d72d185-670a-4e14-a0d1-e40f9938ae43}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kraMath.h">
+      <Filter>Source Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="kraPlatformDefines.h">
+      <Filter>Source Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="kraPlatformMath.h">
+      <Filter>Source Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="kraPlatformTypes.h">
+      <Filter>Source Files\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
