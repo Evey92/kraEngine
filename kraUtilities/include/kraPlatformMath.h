@@ -1,8 +1,14 @@
 #pragma once
 
+#include "kraPlatformTypes.h"
+#include <cmath>
+#include <algorithm> 
 
 namespace kraEngineSDK {
-  struct kraMath {
+  struct KRA_UTILITY_EXPORT kraPlatformMath {
+
+  public:
+    static const float PI;
 
     /*****************************************************************************/
  /**
@@ -11,9 +17,8 @@ namespace kraEngineSDK {
   /*****************************************************************************/
 
     template<typename T>
-    T cos(T)
-    {
-      return std::cos(T);
+    static T cos(T rads) {
+      return std::cos(rads);
     }
 
     template<typename T>
@@ -73,7 +78,7 @@ namespace kraEngineSDK {
     {
       return std::atan2(T);
     }
-    
+
 
     /*****************************************************************************/
  /**
@@ -121,7 +126,7 @@ namespace kraEngineSDK {
   * Exponential and logarithmic functions
   */
   /*****************************************************************************/
-        template<typename T>
+    template<typename T>
     T exp(T T1)
     {
       return std::exp(T);
@@ -154,7 +159,7 @@ namespace kraEngineSDK {
     template<typename T>
     T kraPow(T T1, T T2)
     {
-      T base= T1;
+      T base = T1;
       for (int i = 0; i < abs(T2); i++)
       {
         base *= T1;
@@ -173,14 +178,14 @@ namespace kraEngineSDK {
 
 
 
-/*****************************************************************************/
- /**
-* Misc functions
-*/
-/*****************************************************************************/
+    /*****************************************************************************/
+     /**
+    * Misc functions
+    */
+    /*****************************************************************************/
 
     template<class T>
-    static T lerp (T Ta, T Tb, float t)
+    static T lerp(T Ta, T Tb, float t)
     {
       return(a + (b - a)* T);
     }
@@ -202,10 +207,7 @@ namespace kraEngineSDK {
       return result;
     }
 
-  public:
-    
-    static const float PI;
+
 
   };
 }
-

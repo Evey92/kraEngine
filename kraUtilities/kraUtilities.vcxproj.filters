@@ -13,45 +13,54 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="kreVector2.cpp">
+    <ClCompile Include="src\Source.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
-    <ClCompile Include="kreVector3.cpp">
+    <ClCompile Include="src\kraMath.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
-    <ClCompile Include="kraVector4.cpp">
+    <ClCompile Include="src\kraVector4.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
-    <ClCompile Include="kraMath.cpp">
+    <ClCompile Include="src\kreVector2.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kreVector3.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kraWindowsMath.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kraPlatformMath.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="kraMath.h">
+    <ClInclude Include="include\kraMath.h">
       <Filter>Source Files\Include</Filter>
     </ClInclude>
-    <ClInclude Include="kraPlatformDefines.h">
+    <ClInclude Include="include\kraPlatformDefines.h">
       <Filter>Source Files\Include</Filter>
     </ClInclude>
-    <ClInclude Include="kraPlatformMath.h">
+    <ClInclude Include="include\kraPlatformMath.h">
       <Filter>Source Files\Include</Filter>
     </ClInclude>
-    <ClInclude Include="kraPlatformTypes.h">
+    <ClInclude Include="include\kraPlatformTypes.h">
       <Filter>Source Files\Include</Filter>
     </ClInclude>
-    <ClInclude Include="kreVector2.h">
+    <ClInclude Include="include\kraPrerequisitesUtil.h">
       <Filter>Source Files\Include</Filter>
     </ClInclude>
-    <ClInclude Include="kreVector3.h">
+    <ClInclude Include="include\kraVector4.h">
       <Filter>Source Files\Include</Filter>
     </ClInclude>
-    <ClInclude Include="kraVector4.h">
+    <ClInclude Include="include\kreVector2.h">
       <Filter>Source Files\Include</Filter>
     </ClInclude>
-    <ClInclude Include="kraPrerequisitesUtil.h">
+    <ClInclude Include="include\kreVector3.h">
+      <Filter>Source Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kraWindowsMath.h">
       <Filter>Source Files\Include</Filter>
     </ClInclude>
   </ItemGroup>
