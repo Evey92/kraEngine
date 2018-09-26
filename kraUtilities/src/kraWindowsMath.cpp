@@ -2,11 +2,11 @@
 
 
 
-kraWindowsMath::kraWindowsMath()
-{
-}
-
-
-kraWindowsMath::~kraWindowsMath()
-{
-}
+//kraWindowsMath::kraWindowsMath()
+//{
+//}
+//
+//
+//kraWindowsMath::~kraWindowsMath()
+//{
+//}

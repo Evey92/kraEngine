@@ -1,5 +1,1 @@
-﻿  main.cpp
-  Generating code
-  All 87 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  kraUtilities_UnitTest.vcxproj -> C:\Users\Ivan\Documents\UAD\kraEngine\bin/x86/kraUtilities_UnitTest.exe
+﻿LINK : fatal error LNK1181: cannot open input file 'nauUtilities.lib'
