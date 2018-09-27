@@ -37,28 +37,28 @@
     <ClCompile Include="src\kraAABB.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
-    <ClCompile Include="kraBox2d.cpp">
+    <ClCompile Include="src\kaPlane.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
-    <ClCompile Include="kraFrustrum.cpp">
+    <ClCompile Include="src\kraBox2d.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
-    <ClCompile Include="kraMatrix4.cpp">
+    <ClCompile Include="src\kraFrustrum.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
-    <ClCompile Include="kraOOBB.cpp">
+    <ClCompile Include="src\kraMatrix4.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
-    <ClCompile Include="kaPlane.cpp">
+    <ClCompile Include="src\kraOOBB.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
-    <ClCompile Include="kraRay.cpp">
+    <ClCompile Include="src\kraRay.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
-    <ClCompile Include="kraSphere.cpp">
+    <ClCompile Include="src\kraSphere.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
-    <ClCompile Include="kraTriangle.cpp">
+    <ClCompile Include="src\kraTriangle.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
   </ItemGroup>
@@ -93,28 +93,28 @@
     <ClInclude Include="include\kraAABB.h">
       <Filter>Source Files\Include</Filter>
     </ClInclude>
-    <ClInclude Include="kraBox2d.h">
+    <ClInclude Include="include\kaPlane.h">
       <Filter>Source Files\Include</Filter>
     </ClInclude>
-    <ClInclude Include="kraFrustrum.h">
+    <ClInclude Include="include\kraBox2d.h">
       <Filter>Source Files\Include</Filter>
     </ClInclude>
-    <ClInclude Include="kraMatrix4.h">
+    <ClInclude Include="include\kraFrustrum.h">
       <Filter>Source Files\Include</Filter>
     </ClInclude>
-    <ClInclude Include="kraOOBB.h">
+    <ClInclude Include="include\kraMatrix4.h">
       <Filter>Source Files\Include</Filter>
     </ClInclude>
-    <ClInclude Include="kaPlane.h">
+    <ClInclude Include="include\kraOOBB.h">
       <Filter>Source Files\Include</Filter>
     </ClInclude>
-    <ClInclude Include="kraRay.h">
+    <ClInclude Include="include\kraRay.h">
       <Filter>Source Files\Include</Filter>
     </ClInclude>
-    <ClInclude Include="kraSphere.h">
+    <ClInclude Include="include\kraSphere.h">
       <Filter>Source Files\Include</Filter>
     </ClInclude>
-    <ClInclude Include="kraTriangle.h">
+    <ClInclude Include="include\kraTriangle.h">
       <Filter>Source Files\Include</Filter>
     </ClInclude>
   </ItemGroup>

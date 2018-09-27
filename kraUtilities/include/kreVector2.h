@@ -104,16 +104,16 @@ namespace kraEngineSDK {
      * @param Vec es el segundo vector para calcuilar el producto punto.
      * @return Regresa el producto punto.
      */
-    Vector2
-      operator|(const Vector2& Vec) const;
+    float
+    operator|(const Vector2& Vec) const;
 
     /**
      * @brief Obtiene el producto cruz de este vector y otro.
      * @param Vec es el segundo vector para calcuilar el producto cruz.
      * @return Regresa el producto cruz.
      */
-    Vector2
-      operator^(const Vector2& Vec) const;
+    float
+    operator^(const Vector2& Vec) const;
 
     /**
      * @brief Overload de operadores booleanos.
@@ -301,6 +301,24 @@ namespace kraEngineSDK {
     newVec.y = y / Vec.y;
 
     return newVec;
+  }
+
+  float
+  Vector2::operator|(const Vector2& Vec)const {
+    
+    float escalar = (x * Vec.x) + (y * Vec.y);
+
+    return escalar;
+  }
+
+  float
+  Vector2::operator^(const Vector2& Vec)const {
+
+    //Sacando eje de rotación 2D en un espacio 3D http://allenchou.net/2013/07/cross-product-of-2d-vectors/
+    float escalar = (x * Vec.y) - (y * Vec.x);
+
+
+    return escalar;
   }
 
 }

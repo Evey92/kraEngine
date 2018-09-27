@@ -14,166 +14,195 @@ namespace kraEngineSDK {
     static const float EULER;
     
     /**
-    * Trigonometric functions
+    * @brief Trigonometric functions
     */
     template<typename T>
-    static T cos(T rads) {
+    static T 
+    cos(T rads) {
       return std::cos(rads);
     }
 
     template<typename T>
-     static T sin(T rads) {
+     static T
+    sin(T rads) {
       return std::sin(rads);
     }
 
     template<typename T>
-    static T tan(T rads) {
+    static T
+    tan(T rads) {
       return std::tan(rads);
     }
 
     template<typename T>
-    static T acos(T rads) {
+    static T 
+    acos(T rads) {
       return std::acos(rads);
     }
 
     template<typename T>
-    static T asin(T rads) {
+    static T
+    asin(T rads) {
       return std::asin(rads);
     }
 
     template<typename T>
-    static T atan(T rads) {
+    static T 
+    atan(T rads) {
       return std::atan(rads);
     }
 
     template<typename T>
-    static T atan2(T T1, T T2) {
+    static T 
+    atan2(T T1, T T2) {
       return std::atan2(T1, T2);
     }
 
     /**
-    * Hyperbolic  functions
+    * @brief Hyperbolic functions
     */
     template<typename T>
-    static T cosh(T rads) {
+    static T 
+    cosh(T rads) {
       return std::cosh(rads);
     }
 
     template<typename T>
-    static T sinh(T rads) {
+    static T 
+    sinh(T rads) {
       return std::sinh(rads);
     }
 
     template<typename T>
-    static T tanh(T rads) {
+    static T 
+    tanh(T rads) {
       return std::tanh(rads);
     }
 
     template<typename T>
-    static T acosh(T rads) {
+    static T 
+    acosh(T rads) {
       return std::acosh(rads);
     }
 
     template<typename T>
-    static T asinh(T rads) {
+    static T 
+    asinh(T rads) {
       return std::asinh(rads);
     }
 
     template<typename T>
-    static T atanh(T rads) {
+    static T 
+    atanh(T rads) {
       return std::atanh(rads);
     }
 
     /**
-    * Exponential and logarithmic functions
+    * @brief Exponential and logarithmic functions
     */
     template<typename T>
-    static T exp(T val) {
+    static T 
+    exp(T val) {
       return std::exp(val);
     }
 
     template<typename T>
-    static T fractional(T val) {
+    static T 
+    fractional(T val) {
       return std::modf(val);
     }
 
     template<typename T>
-    static T log(T val) {
+    static T
+    log(T val) {
       return std::log(val);
     }
 
     template<typename T>
-    static T log2(T val) {
+    static T 
+    log2(T val) {
       return std::log2(val);
     }
 
     template<typename T>
-    static T log10(T val) {
+    static T 
+    log10(T val) {
       return std::log10(val);
     }
 
     /**
-    * Power functions
+    * @brief Power functions
     */
     template<typename T>
-    static T pow(T val, T pow) {
+    static T 
+    pow(T val, T pow) {
       return std::pow(val, pow);
     }
 
     template<typename T>
-    static float powf(T val, T pow) {
+    static float 
+    powf(T val, T pow) {
       return static_cast<float>(std::pow(val, pow));
     }
 
     template<typename T>
-    static T sqr(T val) {
+    static T 
+    sqr(T val) {
       return val*val;
     }
 
     template<typename T>
-    static T sqrt(T val) {
+    static T 
+    sqrt(T val) {
       return std::sqrt(val);
     }
 
     template<typename T>
-    static T invSqrt(T val) {
+    static T 
+    invSqrt(T val) {
       return 1.0f/std::sqrt(val);
     }
     
     template<typename T>
-    static T hypot(T val) {
+    static T 
+    hypot(T val) {
       return std::hypot(val);
     }
 
     /**
-    * Rounding and remainder functions
+    * @brief Rounding and remainder functions
     */
     
     template<typename T>
-    static T ceil(T val) {
+    static T 
+    ceil(T val) {
       return std::ceil(val);
     }
 
     template<typename T>
-    static T floor(T val) {
+    static T 
+    floor(T val) {
       return std::floor(val);
     }
 
-    template<typename T>
-    static T ceil(T val) {
-      return std::ceil(val);
-    }
+    //template<typename T>
+    //static T 
+    //ceil(T val) {
+    //  return std::ceil(val);
+    //}
 
     template<typename T>
-    static T round(T val) {
+    static T 
+    round(T val) {
       return std::round(val);
     }
 
     /**
-    * Fast functions
+    * @brief Fast functions
     */
     template<typename T>
-    static T fastSin(T Ta, double precision) {
+    static T 
+    fastSin(T Ta, double precision) {
       T sine = x;
       bool isNeg;
       isNeg = true;
@@ -192,50 +221,57 @@ namespace kraEngineSDK {
     }
 
     /**
-    * Minimum, maximum, difference functions
+    * @brief Minimum, maximum, difference functions
     */
 
     template<typename T>
-    static T fdim(T val) {
+    static T 
+    fdim(T val) {
       return std::fdim(val);
     }
 
     template<typename T>
-    static T fmax(T val1, T val2) {
+    static T 
+    fmax(T val1, T val2) {
       return std::fmax(val, val2);
     }
 
     template<typename T>
-    static T fmin(T val, T val2) {
+    static T 
+    fmin(T val, T val2) {
       return std::fmin(val, val2);
     }
 
     template<typename T>
-    static T max3(T val, T val2, T val3) {
+    static T 
+    max3(T val, T val2, T val3) {
       return std::fmax(fmax(val, val2),val3);
     }
 
     template<typename T>
-    static T min3(T val, T val2, T val3) {
+    static T 
+    min3(T val, T val2, T val3) {
       return std::fmin(fmin(val, val2), val3);
     }
 
     /**
-    * Misc functions
+    * @brief Misc functions
     */
 
     template<class T>
-    static T abs(T val) {
+    static T 
+    abs(T val) {
       return std::abs(val);
     }
 
     template<class T>
-    static T lerp(T a, T b, float scale) {
+    static T 
+    lerp(T a, T b, float scale) {
       return (a + (b - a)* scale);
     }
 
     /**
-    * Spherical Lerp
+    * @brief Spherical Lerp
     */
 
     /*template<class T>
@@ -244,12 +280,14 @@ namespace kraEngineSDK {
     }*/
     
     template<class T>
-    static T clamp(T val) {
+    static T 
+    clamp(T val) {
       return std::clamp(val);
     }
 
     template<class T>
-    T factorial(T x) {
+    static T 
+    factorial(T x) {
       double result = 1;
       for (int i = 1; i <= x; i++)
         result *= i;
