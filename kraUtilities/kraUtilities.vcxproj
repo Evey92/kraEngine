@@ -189,8 +189,8 @@
     <ClCompile Include="src\kraTriangle.cpp" />
     <ClCompile Include="src\kraVector4.cpp" />
     <ClCompile Include="src\kraWindowsMath.cpp" />
-    <ClCompile Include="src\kreVector2.cpp" />
-    <ClCompile Include="src\kreVector3.cpp" />
+    <ClCompile Include="src\kraVector2.cpp" />
+    <ClCompile Include="src\kraVector3.cpp" />
     <ClCompile Include="src\Source.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -210,8 +210,8 @@
     <ClInclude Include="include\kraTriangle.h" />
     <ClInclude Include="include\kraVector4.h" />
     <ClInclude Include="include\kraWindowsMath.h" />
-    <ClInclude Include="include\kreVector2.h" />
-    <ClInclude Include="include\kreVector3.h" />
+    <ClInclude Include="include\kraVector2.h" />
+    <ClInclude Include="include\kraVector3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

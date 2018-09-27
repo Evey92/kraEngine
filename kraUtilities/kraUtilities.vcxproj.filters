@@ -22,12 +22,6 @@
     <ClCompile Include="src\kraVector4.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
-    <ClCompile Include="src\kreVector2.cpp">
-      <Filter>Source Files\src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\kreVector3.cpp">
-      <Filter>Source Files\src</Filter>
-    </ClCompile>
     <ClCompile Include="src\kraWindowsMath.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
@@ -61,6 +55,12 @@
     <ClCompile Include="src\kraTriangle.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
+    <ClCompile Include="src\kraVector2.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kraVector3.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\kraMath.h">
@@ -79,12 +79,6 @@
       <Filter>Source Files\Include</Filter>
     </ClInclude>
     <ClInclude Include="include\kraVector4.h">
-      <Filter>Source Files\Include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\kreVector2.h">
-      <Filter>Source Files\Include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\kreVector3.h">
       <Filter>Source Files\Include</Filter>
     </ClInclude>
     <ClInclude Include="include\kraWindowsMath.h">
@@ -115,6 +109,12 @@
       <Filter>Source Files\Include</Filter>
     </ClInclude>
     <ClInclude Include="include\kraTriangle.h">
+      <Filter>Source Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kraVector2.h">
+      <Filter>Source Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kraVector3.h">
       <Filter>Source Files\Include</Filter>
     </ClInclude>
   </ItemGroup>

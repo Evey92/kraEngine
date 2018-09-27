@@ -1,15 +1,19 @@
 ﻿  main.cpp
-c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
-c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
-c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraplatformdefines.h(293): warning C4615: #pragma warning: unknown user warning type
-c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraplatformmath.h(22): warning C4244: 'return': conversion from 'double' to 'T', possible loss of data
+c:\users\usuario\documents\uad\7mo\motores\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
+c:\users\usuario\documents\uad\7mo\motores\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
+c:\users\usuario\documents\uad\7mo\motores\kraengine\krautilities\include\kraplatformdefines.h(293): warning C4615: #pragma warning: unknown user warning type
+c:\users\usuario\documents\uad\7mo\motores\kraengine\krautilities\include\kraplatformmath.h(22): warning C4244: 'return': conversion from 'double' to 'T', possible loss of data
           with
           [
               T=int
           ]
-  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities_unittest\main.cpp(20): note: see reference to function template instantiation 'T kraEngineSDK::kraPlatformMath::cos<int>(T)' being compiled
+  c:\users\usuario\documents\uad\7mo\motores\kraengine\krautilities_unittest\main.cpp(23): note: see reference to function template instantiation 'T kraEngineSDK::kraPlatformMath::cos<int>(T)' being compiled
           with
           [
               T=int
           ]
-  kraUtilities_UnitTest.vcxproj -> C:\Users\Ivan\Documents\UAD\7mo Cuatri\Motores\kraEngine\bin/x64/kraUtilities_UnitTestd.exe
+c:\users\usuario\documents\uad\7mo\motores\kraengine\krautilities\include\kravector2.h(602): warning C4715: 'kraEngineSDK::Vector2::component': not all control paths return a value
+c:\users\usuario\documents\uad\7mo\motores\kraengine\krautilities\include\kravector2.h(591): warning C4715: 'kraEngineSDK::Vector2::component': not all control paths return a value
+c:\users\usuario\documents\uad\7mo\motores\kraengine\krautilities\include\kravector2.h(569): warning C4715: 'kraEngineSDK::Vector2::operator[]': not all control paths return a value
+c:\users\usuario\documents\uad\7mo\motores\kraengine\krautilities\include\kravector2.h(580): warning C4715: 'kraEngineSDK::Vector2::operator[]': not all control paths return a value
+  kraUtilities_UnitTest.vcxproj -> C:\Users\Usuario\Documents\UAD\7mo\Motores\kraEngine\bin/x64/kraUtilities_UnitTestd.exe
