@@ -111,10 +111,10 @@
     <ClInclude Include="include\kraTriangle.h">
       <Filter>Source Files\Include</Filter>
     </ClInclude>
-    <ClInclude Include="include\kraVector2.h">
+    <ClInclude Include="include\kraVector3.h">
       <Filter>Source Files\Include</Filter>
     </ClInclude>
-    <ClInclude Include="include\kraVector3.h">
+    <ClInclude Include="include\kraVector2.h">
       <Filter>Source Files\Include</Filter>
     </ClInclude>
   </ItemGroup>

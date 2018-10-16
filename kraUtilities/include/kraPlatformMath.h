@@ -5,9 +5,9 @@
 #include <algorithm> 
 
 namespace kraEngineSDK {
-  struct KRA_UTILITY_EXPORT kraPlatformMath {
-
-  public:
+  struct KRA_UTILITY_EXPORT kraPlatformMath
+  {
+   public:
     static const float PI;
     static const float DEGREE;
     static const float RADIAN;
