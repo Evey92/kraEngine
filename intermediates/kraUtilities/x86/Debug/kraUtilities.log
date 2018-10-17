@@ -1,0 +1,7 @@
+﻿  kraWindowsMath.cpp
+c:\users\usuario\documents\uad\7mo\motores\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
+c:\users\usuario\documents\uad\7mo\motores\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
+c:\users\usuario\documents\uad\7mo\motores\kraengine\krautilities\include\kraplatformdefines.h(293): warning C4615: #pragma warning: unknown user warning type
+  LINK : C:\Users\Usuario\Documents\UAD\7mo\Motores\kraEngine\bin/x86/kraUtilitiesd.dll not found or not built by the last incremental link; performing full link
+     Creating library C:\Users\Usuario\Documents\UAD\7mo\Motores\kraEngine\lib/x86/kraUtilitiesd.lib and object C:\Users\Usuario\Documents\UAD\7mo\Motores\kraEngine\lib/x86/kraUtilitiesd.exp
+  kraUtilities.vcxproj -> C:\Users\Usuario\Documents\UAD\7mo\Motores\kraEngine\bin/x86/kraUtilitiesd.dll
