@@ -1,4 +1,11 @@
-./configure && make && make test
+
+os: linux
 compiler: gcc
 language: cpp
-script: make
+
+before_sript:
+    -mkdir build
+    -cd build
+
+script:
+make && make test
