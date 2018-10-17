@@ -1,20 +1,18 @@
 ﻿  main.cpp
-c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraPlatformDefines.h(289): warning C4615: #pragma warning: unknown user warning type
-c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraPlatformDefines.h(291): warning C4615: #pragma warning: unknown user warning type
-c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraPlatformDefines.h(293): warning C4615: #pragma warning: unknown user warning type
-c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraPlatformMath.h(22): warning C4244: 'return': conversion from 'double' to 'T', possible loss of data
+c:\users\ivan\documents\uad\kraengine\krautilities\include\kraPlatformDefines.h(289): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\kraengine\krautilities\include\kraPlatformDefines.h(291): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\kraengine\krautilities\include\kraPlatformDefines.h(293): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\kraengine\krautilities\include\kraPlatformMath.h(22): warning C4244: 'return': conversion from 'double' to 'T', possible loss of data
           with
           [
               T=int
           ]
-  main.cpp(20): note: see reference to function template instantiation 'T kraEngineSDK::kraPlatformMath::cos<int>(T)' being compiled
+  main.cpp(26): note: see reference to function template instantiation 'T kraEngineSDK::kraPlatformMath::cos<int>(T)' being compiled
           with
           [
               T=int
           ]
   Generating code
-  146 of 151 functions (96.7%) were compiled, the rest were copied from previous compilation.
-    73 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  All 158 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
-  kraUtilities_UnitTest.vcxproj -> C:\Users\Ivan\Documents\UAD\7mo Cuatri\Motores\kraEngine\bin/x86/kraUtilities_UnitTest.exe
+  kraUtilities_UnitTest.vcxproj -> C:\Users\Ivan\Documents\UAD\kraEngine\bin/x86/kraUtilities_UnitTest.exe

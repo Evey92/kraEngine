@@ -1,16 +1,30 @@
 #pragma once
+<<<<<<< HEAD
+=======
+
+>>>>>>> ccfd12573612010e6cc01d913baf0799a23a4e3f
 #include "kraPrerequisitesUtil.h"
 #include "kraMath.h"
 
 namespace kraEngineSDK {
+<<<<<<< HEAD
   class Vector3;
 
   class Vector2
+=======
+
+
+  class KRA_UTILITY_EXPORT Vector2
+>>>>>>> ccfd12573612010e6cc01d913baf0799a23a4e3f
   {
     /**
      * @brief Constructores.
      */
+<<<<<<< HEAD
   public:
+=======
+   public:
+>>>>>>> ccfd12573612010e6cc01d913baf0799a23a4e3f
 
     /**
      * @brief Constructor por default, sin inicializacion.
@@ -26,6 +40,7 @@ namespace kraEngineSDK {
 
 
     /**
+<<<<<<< HEAD
      * @brief Construir un Vector2 a partir de los valores X y Y de un Vector3.
      */
     explicit inline Vector2(const Vector3& V);
@@ -34,6 +49,17 @@ namespace kraEngineSDK {
      * @brief Overload de operadores.
      */
   public:
+=======
+     * @brief Construir un Vector2 a partir de los valores X y Y de un Vector2.
+     */
+     //explicit inline Vector2(const Vector2& V, float w);
+
+
+     /**
+      * @brief Overload de operadores.
+      */
+   public:
+>>>>>>> ccfd12573612010e6cc01d913baf0799a23a4e3f
 
     /**
      * @brief Obtiene el resultado de sumar los componentes de 2 vectores.
@@ -42,7 +68,11 @@ namespace kraEngineSDK {
      */
     Vector2
     operator+(const Vector2& Vec) const;
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> ccfd12573612010e6cc01d913baf0799a23a4e3f
     /**
      * @brief Obtiene el resultado de restar los componentes de 2 vectores.
      * @param Vec es el segundo vector que se le resta a este vector.
@@ -112,14 +142,23 @@ namespace kraEngineSDK {
      * @param Vec es el segundo vector para calcuilar el producto cruz.
      * @return Regresa el producto cruz.
      */
+<<<<<<< HEAD
     float
     operator^(const Vector2& Vec) const;
+=======
+    Vector2
+    Vector2::operator^(const Vector2& Vec)const;
+>>>>>>> ccfd12573612010e6cc01d913baf0799a23a4e3f
 
     /**
      * @brief Overload de operadores booleanos.
      */
 
+<<<<<<< HEAD
   public:
+=======
+   public:
+>>>>>>> ccfd12573612010e6cc01d913baf0799a23a4e3f
 
     /**
      * @brief Compara 2 vectores para ver si sus componentes son iguales.
@@ -178,6 +217,7 @@ namespace kraEngineSDK {
     operator-() const;
 
     /**
+<<<<<<< HEAD
      * @brief Le suma un vetor secundario a este mismo vetcor.
      * @param Vec es el segundo vector que se va a sumar.
      * @return Regresa una copia de vector resultado.
@@ -192,21 +232,46 @@ namespace kraEngineSDK {
      */
     Vector2
     operator-=(const Vector2& Vec);
+=======
+     * @brief Le suma un vector secundario a este mismo vetcor.
+     * @param Vec es el segundo vector que se va a sumar.
+     * @return Regresa una copia de vector resultado.
+     */
+    Vector2&
+    operator+=(const Vector2& Vec);
+
+    /**
+     * @brief Le resta un vector secundario a este mismo vetcor.
+     * @param Vec es el segundo vector que se va a restar.
+     * @return Regresa una copia del vector resultado.
+     */
+    Vector2&
+      operator-=(const Vector2& Vec);
+>>>>>>> ccfd12573612010e6cc01d913baf0799a23a4e3f
 
     /**
      * @brief Multiplica los componentes de este mismo vector por un valor
      * @param Val es el valor a multiplicar el vector.
      * @return Regresa una copia del vector resultado.
      */
+<<<<<<< HEAD
     Vector2
     operator*=(float Val);
+=======
+    Vector2&
+      operator*=(float Val);
+>>>>>>> ccfd12573612010e6cc01d913baf0799a23a4e3f
 
     /**
      * @brief Multiplica los componentes de este mismo vector por otro vector
      * @param Vec es el vector que multiplica este vector.
      * @return Regresa una copia del vector resultado.
      */
+<<<<<<< HEAD
     Vector2
+=======
+    Vector2&
+>>>>>>> ccfd12573612010e6cc01d913baf0799a23a4e3f
       operator*=(const Vector2& Vec);
 
     /**
@@ -214,7 +279,11 @@ namespace kraEngineSDK {
      * @param Val es el valor a dividir el vector.
      * @return Regresa una copia del vector resultado.
      */
+<<<<<<< HEAD
     Vector2
+=======
+    Vector2&
+>>>>>>> ccfd12573612010e6cc01d913baf0799a23a4e3f
     operator/=(float Val);
 
     /**
@@ -222,11 +291,19 @@ namespace kraEngineSDK {
      * @param Vec es el otro vector para dividir este vector.
      * @return Regresa una copia del vector resultado.
      */
+<<<<<<< HEAD
     Vector2
     operator/=(const Vector2& Vec);
 
     /**
     * Funciones para accesar a los componentes individuales del vector 
+=======
+    Vector2&
+    operator/=(const Vector2& Vec);
+
+    /**
+    * Funciones para accesar a los componentes individuales del vector
+>>>>>>> ccfd12573612010e6cc01d913baf0799a23a4e3f
     */
 
     /**
@@ -275,7 +352,11 @@ namespace kraEngineSDK {
      * @return Regresa el tamaño del vector.
      */
     float
+<<<<<<< HEAD
       lenghtSquared() const;
+=======
+    lenghtSquared() const;
+>>>>>>> ccfd12573612010e6cc01d913baf0799a23a4e3f
 
     /**
      * @brief Obtiene el cuadrado del tamaño o magnitud de un vector.
@@ -288,9 +369,15 @@ namespace kraEngineSDK {
      * @brief Obtiene el cuadrado del tamaño o magnitud de un vector.
      * @return Regresa el tamaño del vector.
      */
+<<<<<<< HEAD
     static float
     cross(Vector2& V1, Vector2& V2);
    
+=======
+    static Vector2
+    cross(Vector2& V1, Vector2& V2);
+
+>>>>>>> ccfd12573612010e6cc01d913baf0799a23a4e3f
     /**
      * @brief Obtiene la distancia enrtre 2 vectores.
      * @param Los dos vectores.
@@ -312,7 +399,11 @@ namespace kraEngineSDK {
     void
     ceil();
 
+<<<<<<< HEAD
   public:
+=======
+   public:
+>>>>>>> ccfd12573612010e6cc01d913baf0799a23a4e3f
     /**
      * @brief Componente X.
      */
@@ -321,6 +412,7 @@ namespace kraEngineSDK {
      * @brief Componente Y.
      */
     float y;
+<<<<<<< HEAD
 
   };
 
@@ -602,3 +694,8 @@ namespace kraEngineSDK {
   }
 
 }
+=======
+  };
+}
+ 
+>>>>>>> ccfd12573612010e6cc01d913baf0799a23a4e3f

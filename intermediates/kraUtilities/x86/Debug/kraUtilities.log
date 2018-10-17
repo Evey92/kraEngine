@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿  kraWindowsMath.cpp
 c:\users\usuario\documents\uad\7mo\motores\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
 c:\users\usuario\documents\uad\7mo\motores\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
@@ -5,3 +6,54 @@ c:\users\usuario\documents\uad\7mo\motores\kraengine\krautilities\include\krapla
   LINK : C:\Users\Usuario\Documents\UAD\7mo\Motores\kraEngine\bin/x86/kraUtilitiesd.dll not found or not built by the last incremental link; performing full link
      Creating library C:\Users\Usuario\Documents\UAD\7mo\Motores\kraEngine\lib/x86/kraUtilitiesd.lib and object C:\Users\Usuario\Documents\UAD\7mo\Motores\kraEngine\lib/x86/kraUtilitiesd.exp
   kraUtilities.vcxproj -> C:\Users\Usuario\Documents\UAD\7mo\Motores\kraEngine\bin/x86/kraUtilitiesd.dll
+=======
+﻿  kaPlane.cpp
+  kraAABB.cpp
+  kraBox2d.cpp
+  kraFrustrum.cpp
+  kraMath.cpp
+c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(293): warning C4615: #pragma warning: unknown user warning type
+  kraMatrix4.cpp
+  kraOOBB.cpp
+  kraPlatformMath.cpp
+c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(293): warning C4615: #pragma warning: unknown user warning type
+  kraRay.cpp
+  kraSphere.cpp
+  kraTriangle.cpp
+  kraVector2.cpp
+c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(293): warning C4615: #pragma warning: unknown user warning type
+  kraVector3.cpp
+c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(293): warning C4615: #pragma warning: unknown user warning type
+  kraVector4.cpp
+c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(293): warning C4615: #pragma warning: unknown user warning type
+  kraWindowsMath.cpp
+c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(293): warning C4615: #pragma warning: unknown user warning type
+  Source.cpp
+  Generating Code...
+c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector4.cpp(287): warning C4715: 'kraEngineSDK::Vector4::operator[]': not all control paths return a value
+c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector4.cpp(304): warning C4715: 'kraEngineSDK::Vector4::operator[]': not all control paths return a value
+c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector4.cpp(321): warning C4715: 'kraEngineSDK::Vector4::component': not all control paths return a value
+c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector4.cpp(338): warning C4715: 'kraEngineSDK::Vector4::component': not all control paths return a value
+c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector3.cpp(279): warning C4715: 'kraEngineSDK::Vector3::operator[]': not all control paths return a value
+c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector3.cpp(293): warning C4715: 'kraEngineSDK::Vector3::operator[]': not all control paths return a value
+c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector3.cpp(307): warning C4715: 'kraEngineSDK::Vector3::component': not all control paths return a value
+c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector3.cpp(321): warning C4715: 'kraEngineSDK::Vector3::component': not all control paths return a value
+c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector2.cpp(270): warning C4715: 'kraEngineSDK::Vector2::operator[]': not all control paths return a value
+c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector2.cpp(259): warning C4715: 'kraEngineSDK::Vector2::operator[]': not all control paths return a value
+c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector2.cpp(281): warning C4715: 'kraEngineSDK::Vector2::component': not all control paths return a value
+c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector2.cpp(292): warning C4715: 'kraEngineSDK::Vector2::component': not all control paths return a value
+     Creating library C:\Users\Ivan\Documents\UAD\kraEngine\lib/x86/kraUtilitiesd.lib and object C:\Users\Ivan\Documents\UAD\kraEngine\lib/x86/kraUtilitiesd.exp
+  kraUtilities.vcxproj -> C:\Users\Ivan\Documents\UAD\kraEngine\bin/x86/kraUtilitiesd.dll
+>>>>>>> ccfd12573612010e6cc01d913baf0799a23a4e3f

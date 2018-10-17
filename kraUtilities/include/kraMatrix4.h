@@ -1,21 +1,18 @@
 #pragma once
 
 #include "kraPrerequisitesUtil.h"
-#include "kraMath.h"
-#include "kraVector2.h"
-#include "kraVector3.h"
-#include "kraVector4.h"
 
 namespace kraEngineSDK {
+  class Vector4;
 
   class Matrix4
   {
-  public:
+   public:
     
     Matrix4() = default;
 
     /**
-     * @brief Constructor de la matriz.
+     * @brief All docs are on english at least!!!
      */
 
     Matrix4(float m00, float m01, float m02, float m03,
@@ -36,7 +33,7 @@ namespace kraEngineSDK {
     operator*(const Matrix4& Mat);
 
     Matrix4
-    operator*(const Vector4 Vec);
+    operator*(const Vector4& Vec);
 
     Matrix4
     operator+=(const Matrix4& Mat);
@@ -48,21 +45,21 @@ namespace kraEngineSDK {
     operator*=(const Matrix4& Mat);
 
     Matrix4
-    operator+=(const float& val);
+    operator+=(float val);
 
     Matrix4
-    operator-=(const float& val);
+    operator-=(float val);
 
     Matrix4
-    operator*=(const float& val);
+    operator*=(float val);
 
     Matrix4
-    operator/=(const float& val);
+    operator/=(float val);
 
     Matrix4
     operator=(const Matrix4& Mat);
 
-  public:
+   public:
 
     bool
     operator==(const Matrix4& Mat);
@@ -70,12 +67,11 @@ namespace kraEngineSDK {
     bool
     operator!=(const Matrix4& Mat);
 
-  public:
+   public:
     union {
+      float _m[16];
       float m[4][4];
-      Vector4 vec[4];
     };
-
   };
 
   Matrix4::Matrix4(float m00, float m01, float m02, float m03,
@@ -90,7 +86,7 @@ namespace kraEngineSDK {
   }
 
   Matrix4
-  Matrix4::operator+(const float& val) {
+  Matrix4::operator+(float val) {
     Matrix4 newMat;
 
     for (uint32 i = 0; i < 4; ++i) {
@@ -158,7 +154,7 @@ namespace kraEngineSDK {
     return *this;
   }
 
-  Matrix4
+  Matrix4&
   Matrix4::operator-=(const Matrix4& Mat) {
     
     for (uint32 i = 0; i < 4; ++i) {
@@ -170,7 +166,7 @@ namespace kraEngineSDK {
     return *this;
   }
 
-  Matrix4
+  Matrix4&
   Matrix4::operator*=(const Matrix4& Mat) {
 
     for (uint32 i = 0; i < 4; ++i) {
@@ -182,7 +178,7 @@ namespace kraEngineSDK {
     return *this;
   }
 
-  Matrix4
+  Matrix4&
   Matrix4:: operator+=(const float& val) {
 
     for (uint32 i = 0; i < 4; ++i) {
@@ -194,7 +190,7 @@ namespace kraEngineSDK {
     return *this;
   }
 
-  Matrix4
+  Matrix4&
   Matrix4::operator-=(const float& val) {
 
 
@@ -207,7 +203,7 @@ namespace kraEngineSDK {
     return *this;
   }
 
-  Matrix4
+  Matrix4&
   Matrix4::operator*=(const float& val) {
 
     for (uint32 i = 0; i < 4; ++i) {
@@ -219,7 +215,7 @@ namespace kraEngineSDK {
     return *this;
   }
 
-  Matrix4
+  Matrix4&
   Matrix4::operator/=(const float& val) {
 
     for (uint32 i = 0; i < 4; ++i) {
@@ -231,7 +227,7 @@ namespace kraEngineSDK {
     return *this;
   }
 
-  Matrix4
+  Matrix4&
   Matrix4::operator=(const Matrix4& Mat) {
     
     for (uint32 i = 0; i < 4; ++i) {
@@ -256,7 +252,7 @@ namespace kraEngineSDK {
 
   bool
   Matrix4::operator!=(const Matrix4& Mat) {
-
+    return !(*this == Mat);
   }
 
 }
