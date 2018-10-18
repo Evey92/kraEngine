@@ -1,85 +1,434 @@
-<<<<<<< HEAD
-﻿  kraWindowsMath.cpp
-c:\users\usuario\documents\uad\7mo\motores\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
-c:\users\usuario\documents\uad\7mo\motores\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
-c:\users\usuario\documents\uad\7mo\motores\kraengine\krautilities\include\kraplatformdefines.h(293): warning C4615: #pragma warning: unknown user warning type
-  LINK : C:\Users\Usuario\Documents\UAD\7mo\Motores\kraEngine\bin/x64/kraUtilitiesd.dll not found or not built by the last incremental link; performing full link
-     Creating library C:\Users\Usuario\Documents\UAD\7mo\Motores\kraEngine\lib/x64/kraUtilitiesd.lib and object C:\Users\Usuario\Documents\UAD\7mo\Motores\kraEngine\lib/x64/kraUtilitiesd.exp
-  kraUtilities.vcxproj -> C:\Users\Usuario\Documents\UAD\7mo\Motores\kraEngine\bin/x64/kraUtilitiesd.dll
-=======
-﻿  kraBox2d.cpp
-c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
-c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
-c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(293): warning C4615: #pragma warning: unknown user warning type
-c:\users\ivan\documents\uad\kraengine\krautilities\src\krabox2d.cpp(7): warning C4100: 'otherBox': unreferenced formal parameter
-c:\users\ivan\documents\uad\kraengine\krautilities\src\krabox2d.cpp(8): warning C4100: 'max': unreferenced formal parameter
-c:\users\ivan\documents\uad\kraengine\krautilities\src\krabox2d.cpp(8): warning C4100: 'min': unreferenced formal parameter
+﻿  kaPlane.cpp
+  kraAABB.cpp
+  kraBox2d.cpp
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraplatformdefines.h(293): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(2): error C2059: syntax error: '<<'
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\corecrt_malloc.h(13): error C2143: syntax error: missing ';' before '{'
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\corecrt_malloc.h(13): error C2447: '{': missing function header (old-style formal list?)
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\cstdlib(38): error C2039: 'calloc': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\cstdlib(38): error C2873: 'calloc': symbol cannot be used in a using-declaration
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\cstdlib(39): error C2039: 'free': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\cstdlib(39): error C2873: 'free': symbol cannot be used in a using-declaration
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\cstdlib(40): error C2039: 'malloc': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\cstdlib(40): error C2873: 'malloc': symbol cannot be used in a using-declaration
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\cstdlib(42): error C2039: 'realloc': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\cstdlib(42): error C2873: 'realloc': symbol cannot be used in a using-declaration
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\malloc.h(157): error C3861: 'free': identifier not found
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(10): error C2059: syntax error: '<<'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(14): error C2059: syntax error: '=='
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(19): error C2143: syntax error: missing ';' before '{'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(19): error C2447: '{': missing function header (old-style formal list?)
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(53): error C2018: unknown character '0x40'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(54): warning C4138: '*/' found outside of comment
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(236): error C2018: unknown character '0x40'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(237): error C2018: unknown character '0x40'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(238): error C2018: unknown character '0x40'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(239): warning C4138: '*/' found outside of comment
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(425): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(425): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(425): error C2550: 'kraEngineSDK::{ctor}': constructor initializer lists are only allowed on constructor definitions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(425): warning C4508: 'kraEngineSDK::{ctor}': function should return a value; 'void' return type assumed
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(428): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(428): error C2270: '+': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(428): error C2079: 'kraEngineSDK::+' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(429): error C2079: 'newVec' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(430): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(430): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(431): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(431): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(437): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(437): error C2270: '-': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(437): error C2079: 'kraEngineSDK::-' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(438): error C2079: 'newVec' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(439): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(439): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(440): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(440): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(446): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(446): error C2270: '*': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(446): error C2079: 'kraEngineSDK::*' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(447): error C2079: 'newVec' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(448): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(449): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(455): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(455): error C2270: '/': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(455): error C2079: 'kraEngineSDK::/' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(456): error C2079: 'newVec' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(457): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(458): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(464): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(464): error C2270: '+': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(464): error C2079: 'kraEngineSDK::+' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(465): error C2079: 'newVec' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(466): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(467): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(473): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(473): error C2270: '-': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(473): error C2079: 'kraEngineSDK::-' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(474): error C2079: 'newVec' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(475): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(476): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(482): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(482): error C2270: '*': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(482): error C2079: 'kraEngineSDK::*' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(483): error C2079: 'newVec' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(484): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(484): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(485): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(485): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(491): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(491): error C2270: '/': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(491): error C2079: 'kraEngineSDK::/' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(492): error C2079: 'newVec' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(493): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(493): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(494): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(494): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(500): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(500): error C2270: '|': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(502): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(502): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(502): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(508): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(508): error C2270: '^': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(511): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(511): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(511): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(518): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(518): error C2270: '==': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(520): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(520): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(520): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(525): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(525): error C2270: '!=': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(526): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(526): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(526): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(530): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(530): error C2270: '<': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(532): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(532): fatal error C1003: error count exceeds 100; stopping compilation
+  kraFrustrum.cpp
   kraMath.cpp
-c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
-c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
-c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(293): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraplatformdefines.h(293): warning C4615: #pragma warning: unknown user warning type
+  kraMatrix4.cpp
+  kraOOBB.cpp
   kraPlatformMath.cpp
-c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
-c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
-c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(293): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraplatformdefines.h(293): warning C4615: #pragma warning: unknown user warning type
+  kraRay.cpp
+  kraSphere.cpp
+  kraTriangle.cpp
   kraVector2.cpp
-c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
-c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
-c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(293): warning C4615: #pragma warning: unknown user warning type
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector2.cpp(153): error C2556: 'kraEngineSDK::Vector2 kraEngineSDK::Vector2::operator +=(const kraEngineSDK::Vector2 &)': overloaded function differs only by return type from 'kraEngineSDK::Vector2 &kraEngineSDK::Vector2::operator +=(const kraEngineSDK::Vector2 &)'
-  c:\users\ivan\documents\uad\kraengine\krautilities\include\kravector2.h(188): note: see declaration of 'kraEngineSDK::Vector2::operator +='
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector2.cpp(153): error C2040: 'kraEngineSDK::Vector2::operator +=': 'kraEngineSDK::Vector2 (const kraEngineSDK::Vector2 &)' differs in levels of indirection from 'kraEngineSDK::Vector2 &(const kraEngineSDK::Vector2 &)'
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector2.cpp(161): error C2556: 'kraEngineSDK::Vector2 kraEngineSDK::Vector2::operator -=(const kraEngineSDK::Vector2 &)': overloaded function differs only by return type from 'kraEngineSDK::Vector2 &kraEngineSDK::Vector2::operator -=(const kraEngineSDK::Vector2 &)'
-  c:\users\ivan\documents\uad\kraengine\krautilities\include\kravector2.h(196): note: see declaration of 'kraEngineSDK::Vector2::operator -='
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector2.cpp(161): error C2040: 'kraEngineSDK::Vector2::operator -=': 'kraEngineSDK::Vector2 (const kraEngineSDK::Vector2 &)' differs in levels of indirection from 'kraEngineSDK::Vector2 &(const kraEngineSDK::Vector2 &)'
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector2.cpp(169): error C2556: 'kraEngineSDK::Vector2 kraEngineSDK::Vector2::operator *=(float)': overloaded function differs only by return type from 'kraEngineSDK::Vector2 &kraEngineSDK::Vector2::operator *=(float)'
-  c:\users\ivan\documents\uad\kraengine\krautilities\include\kravector2.h(204): note: see declaration of 'kraEngineSDK::Vector2::operator *='
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector2.cpp(169): error C2040: 'kraEngineSDK::Vector2::operator *=': 'kraEngineSDK::Vector2 (float)' differs in levels of indirection from 'kraEngineSDK::Vector2 &(float)'
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector2.cpp(177): error C2556: 'kraEngineSDK::Vector2 kraEngineSDK::Vector2::operator *=(const kraEngineSDK::Vector2 &)': overloaded function differs only by return type from 'kraEngineSDK::Vector2 &kraEngineSDK::Vector2::operator *=(const kraEngineSDK::Vector2 &)'
-  c:\users\ivan\documents\uad\kraengine\krautilities\include\kravector2.h(212): note: see declaration of 'kraEngineSDK::Vector2::operator *='
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector2.cpp(177): error C2040: 'kraEngineSDK::Vector2::operator *=': 'kraEngineSDK::Vector2 (const kraEngineSDK::Vector2 &)' differs in levels of indirection from 'kraEngineSDK::Vector2 &(const kraEngineSDK::Vector2 &)'
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector2.cpp(185): error C2556: 'kraEngineSDK::Vector2 kraEngineSDK::Vector2::operator /=(float)': overloaded function differs only by return type from 'kraEngineSDK::Vector2 &kraEngineSDK::Vector2::operator /=(float)'
-  c:\users\ivan\documents\uad\kraengine\krautilities\include\kravector2.h(220): note: see declaration of 'kraEngineSDK::Vector2::operator /='
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector2.cpp(185): error C2040: 'kraEngineSDK::Vector2::operator /=': 'kraEngineSDK::Vector2 (float)' differs in levels of indirection from 'kraEngineSDK::Vector2 &(float)'
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector2.cpp(193): error C2556: 'kraEngineSDK::Vector2 kraEngineSDK::Vector2::operator /=(const kraEngineSDK::Vector2 &)': overloaded function differs only by return type from 'kraEngineSDK::Vector2 &kraEngineSDK::Vector2::operator /=(const kraEngineSDK::Vector2 &)'
-  c:\users\ivan\documents\uad\kraengine\krautilities\include\kravector2.h(228): note: see declaration of 'kraEngineSDK::Vector2::operator /='
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector2.cpp(193): error C2040: 'kraEngineSDK::Vector2::operator /=': 'kraEngineSDK::Vector2 (const kraEngineSDK::Vector2 &)' differs in levels of indirection from 'kraEngineSDK::Vector2 &(const kraEngineSDK::Vector2 &)'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(2): error C2059: syntax error: '<<'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraplatformdefines.h(293): warning C4615: #pragma warning: unknown user warning type
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\sal.h(2361): error C2143: syntax error: missing ';' before '{'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\sal.h(2361): error C2447: '{': missing function header (old-style formal list?)
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(10): error C2059: syntax error: '<<'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(14): error C2059: syntax error: '=='
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(19): error C2143: syntax error: missing ';' before '{'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(19): error C2447: '{': missing function header (old-style formal list?)
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(53): error C2018: unknown character '0x40'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(54): warning C4138: '*/' found outside of comment
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(236): error C2018: unknown character '0x40'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(237): error C2018: unknown character '0x40'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(238): error C2018: unknown character '0x40'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(239): warning C4138: '*/' found outside of comment
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(425): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(425): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(425): error C2550: 'kraEngineSDK::{ctor}': constructor initializer lists are only allowed on constructor definitions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(425): warning C4508: 'kraEngineSDK::{ctor}': function should return a value; 'void' return type assumed
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(428): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(428): error C2270: '+': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(428): error C2079: 'kraEngineSDK::+' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(429): error C2079: 'newVec' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(430): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(430): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(431): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(431): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(437): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(437): error C2270: '-': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(437): error C2079: 'kraEngineSDK::-' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(438): error C2079: 'newVec' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(439): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(439): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(440): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(440): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(446): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(446): error C2270: '*': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(446): error C2079: 'kraEngineSDK::*' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(447): error C2079: 'newVec' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(448): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(449): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(455): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(455): error C2270: '/': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(455): error C2079: 'kraEngineSDK::/' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(456): error C2079: 'newVec' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(457): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(458): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(464): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(464): error C2270: '+': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(464): error C2079: 'kraEngineSDK::+' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(465): error C2079: 'newVec' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(466): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(467): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(473): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(473): error C2270: '-': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(473): error C2079: 'kraEngineSDK::-' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(474): error C2079: 'newVec' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(475): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(476): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(482): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(482): error C2270: '*': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(482): error C2079: 'kraEngineSDK::*' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(483): error C2079: 'newVec' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(484): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(484): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(485): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(485): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(491): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(491): error C2270: '/': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(491): error C2079: 'kraEngineSDK::/' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(492): error C2079: 'newVec' uses undefined class 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(493): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(493): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(494): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(494): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(500): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(500): error C2270: '|': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(502): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(502): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(502): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(508): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(508): error C2270: '^': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(511): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(511): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(511): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(518): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(518): error C2270: '==': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(520): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(520): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(520): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(525): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(525): error C2270: '!=': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(526): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(526): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(526): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(530): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(530): error C2270: '<': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(532): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(532): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(532): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(537): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(537): error C2270: '>': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(538): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(538): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(538): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(542): error C2027: use of undefined type 'kraEngineSDK::Vector2'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(17): note: see declaration of 'kraEngineSDK::Vector2'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(542): error C2270: '<=': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(542): fatal error C1003: error count exceeds 100; stopping compilation
   kraVector3.cpp
-c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
-c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
-c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(293): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector3.cpp(1): error C2059: syntax error: '<<'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector3.cpp(2): fatal error C1083: Cannot open include file: 'kreVector3.h': No such file or directory
   kraVector4.cpp
-c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
-c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
-c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(293): warning C4615: #pragma warning: unknown user warning type
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector4.cpp(156): error C2556: 'kraEngineSDK::Vector4 kraEngineSDK::Vector4::operator -(void) const': overloaded function differs only by return type from 'kraEngineSDK::Vector4 &kraEngineSDK::Vector4::operator -(void) const'
-  c:\users\ivan\documents\uad\kraengine\krautilities\include\kravector4.h(182): note: see declaration of 'kraEngineSDK::Vector4::operator -'
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector4.cpp(156): error C2040: 'kraEngineSDK::Vector4::operator -': 'kraEngineSDK::Vector4 (void) const' differs in levels of indirection from 'kraEngineSDK::Vector4 &(void) const'
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector4.cpp(163): error C2556: 'kraEngineSDK::Vector4 kraEngineSDK::Vector4::operator +=(const kraEngineSDK::Vector4 &)': overloaded function differs only by return type from 'kraEngineSDK::Vector4 &kraEngineSDK::Vector4::operator +=(const kraEngineSDK::Vector4 &)'
-  c:\users\ivan\documents\uad\kraengine\krautilities\include\kravector4.h(190): note: see declaration of 'kraEngineSDK::Vector4::operator +='
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector4.cpp(163): error C2040: 'kraEngineSDK::Vector4::operator +=': 'kraEngineSDK::Vector4 (const kraEngineSDK::Vector4 &)' differs in levels of indirection from 'kraEngineSDK::Vector4 &(const kraEngineSDK::Vector4 &)'
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector4.cpp(172): error C2556: 'kraEngineSDK::Vector4 kraEngineSDK::Vector4::operator -=(const kraEngineSDK::Vector4 &)': overloaded function differs only by return type from 'kraEngineSDK::Vector4 &kraEngineSDK::Vector4::operator -=(const kraEngineSDK::Vector4 &)'
-  c:\users\ivan\documents\uad\kraengine\krautilities\include\kravector4.h(198): note: see declaration of 'kraEngineSDK::Vector4::operator -='
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector4.cpp(172): error C2040: 'kraEngineSDK::Vector4::operator -=': 'kraEngineSDK::Vector4 (const kraEngineSDK::Vector4 &)' differs in levels of indirection from 'kraEngineSDK::Vector4 &(const kraEngineSDK::Vector4 &)'
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector4.cpp(181): error C2556: 'kraEngineSDK::Vector4 kraEngineSDK::Vector4::operator *=(float)': overloaded function differs only by return type from 'kraEngineSDK::Vector4 &kraEngineSDK::Vector4::operator *=(float)'
-  c:\users\ivan\documents\uad\kraengine\krautilities\include\kravector4.h(206): note: see declaration of 'kraEngineSDK::Vector4::operator *='
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector4.cpp(181): error C2040: 'kraEngineSDK::Vector4::operator *=': 'kraEngineSDK::Vector4 (float)' differs in levels of indirection from 'kraEngineSDK::Vector4 &(float)'
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector4.cpp(190): error C2556: 'kraEngineSDK::Vector4 kraEngineSDK::Vector4::operator *=(const kraEngineSDK::Vector4 &)': overloaded function differs only by return type from 'kraEngineSDK::Vector4 &kraEngineSDK::Vector4::operator *=(const kraEngineSDK::Vector4 &)'
-  c:\users\ivan\documents\uad\kraengine\krautilities\include\kravector4.h(214): note: see declaration of 'kraEngineSDK::Vector4::operator *='
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector4.cpp(190): error C2040: 'kraEngineSDK::Vector4::operator *=': 'kraEngineSDK::Vector4 (const kraEngineSDK::Vector4 &)' differs in levels of indirection from 'kraEngineSDK::Vector4 &(const kraEngineSDK::Vector4 &)'
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector4.cpp(199): error C2556: 'kraEngineSDK::Vector4 kraEngineSDK::Vector4::operator /=(float)': overloaded function differs only by return type from 'kraEngineSDK::Vector4 &kraEngineSDK::Vector4::operator /=(float)'
-  c:\users\ivan\documents\uad\kraengine\krautilities\include\kravector4.h(222): note: see declaration of 'kraEngineSDK::Vector4::operator /='
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector4.cpp(199): error C2040: 'kraEngineSDK::Vector4::operator /=': 'kraEngineSDK::Vector4 (float)' differs in levels of indirection from 'kraEngineSDK::Vector4 &(float)'
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector4.cpp(208): error C2556: 'kraEngineSDK::Vector4 kraEngineSDK::Vector4::operator /=(const kraEngineSDK::Vector4 &)': overloaded function differs only by return type from 'kraEngineSDK::Vector4 &kraEngineSDK::Vector4::operator /=(const kraEngineSDK::Vector4 &)'
-  c:\users\ivan\documents\uad\kraengine\krautilities\include\kravector4.h(230): note: see declaration of 'kraEngineSDK::Vector4::operator /='
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector4.cpp(208): error C2040: 'kraEngineSDK::Vector4::operator /=': 'kraEngineSDK::Vector4 (const kraEngineSDK::Vector4 &)' differs in levels of indirection from 'kraEngineSDK::Vector4 &(const kraEngineSDK::Vector4 &)'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraplatformdefines.h(293): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(2): error C2059: syntax error: '<<'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(9): error C2143: syntax error: missing ';' before '{'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(9): error C2447: '{': missing function header (old-style formal list?)
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(53): error C2018: unknown character '0x40'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(54): warning C4138: '*/' found outside of comment
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(236): error C2018: unknown character '0x40'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(237): error C2018: unknown character '0x40'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(238): error C2018: unknown character '0x40'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(239): warning C4138: '*/' found outside of comment
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(697): error C2059: syntax error: '=='
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(698): error C2143: syntax error: missing ';' before '}'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(698): error C2059: syntax error: '}'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(699): error C2059: syntax error: '}'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector2.h(699): error C2143: syntax error: missing ';' before '}'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector3.h(7): error C2143: syntax error: missing ';' before '{'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector3.h(7): error C2447: '{': missing function header (old-style formal list?)
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector3.h(60): error C2018: unknown character '0x40'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector3.h(61): warning C4138: '*/' found outside of comment
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector3.h(775): error C2059: syntax error: '=='
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector3.h(776): error C2143: syntax error: missing ';' before '}'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector3.h(776): error C2059: syntax error: '}'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector3.h(777): error C2059: syntax error: '}'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector3.h(777): error C2143: syntax error: missing ';' before '}'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector4.h(9): error C2143: syntax error: missing ';' before '{'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kravector4.h(9): error C2447: '{': missing function header (old-style formal list?)
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(11): error C2653: 'Vector4': is not a class or namespace name
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(11): error C2550: 'kraEngineSDK::Vector4': constructor initializer lists are only allowed on constructor definitions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(11): warning C4508: 'kraEngineSDK::Vector4': function should return a value; 'void' return type assumed
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(14): error C2653: 'Vector4': is not a class or namespace name
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(14): error C2365: 'kraEngineSDK::Vector4': redefinition; previous definition was 'function'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(11): note: see declaration of 'kraEngineSDK::Vector4'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(14): error C2146: syntax error: missing ';' before identifier '+'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(14): error C2143: syntax error: missing ';' before '{'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(14): error C2447: '{': missing function header (old-style formal list?)
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(25): error C2653: 'Vector4': is not a class or namespace name
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(25): error C2365: 'kraEngineSDK::Vector4': redefinition; previous definition was 'function'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(11): note: see declaration of 'kraEngineSDK::Vector4'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(25): error C2146: syntax error: missing ';' before identifier '-'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(25): error C2143: syntax error: missing ';' before '{'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(25): error C2447: '{': missing function header (old-style formal list?)
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(36): error C2653: 'Vector4': is not a class or namespace name
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(36): error C2365: 'kraEngineSDK::Vector4': redefinition; previous definition was 'function'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(11): note: see declaration of 'kraEngineSDK::Vector4'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(36): error C2146: syntax error: missing ';' before identifier '*'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(36): error C2143: syntax error: missing ';' before '{'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(36): error C2447: '{': missing function header (old-style formal list?)
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(47): error C2653: 'Vector4': is not a class or namespace name
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(47): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(47): error C2365: 'kraEngineSDK::Vector4': redefinition; previous definition was 'function'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(11): note: see declaration of 'kraEngineSDK::Vector4'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(47): error C2146: syntax error: missing ';' before identifier '/'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(47): error C2143: syntax error: missing ';' before '{'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(47): error C2447: '{': missing function header (old-style formal list?)
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(58): error C2653: 'Vector4': is not a class or namespace name
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(58): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(58): error C2365: 'kraEngineSDK::Vector4': redefinition; previous definition was 'function'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(11): note: see declaration of 'kraEngineSDK::Vector4'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(58): error C2146: syntax error: missing ';' before identifier '+'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(58): error C2143: syntax error: missing ';' before '{'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(58): error C2447: '{': missing function header (old-style formal list?)
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(69): error C2653: 'Vector4': is not a class or namespace name
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(69): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(69): error C2365: 'kraEngineSDK::Vector4': redefinition; previous definition was 'function'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(11): note: see declaration of 'kraEngineSDK::Vector4'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(69): error C2146: syntax error: missing ';' before identifier '-'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(69): error C2143: syntax error: missing ';' before '{'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(69): error C2447: '{': missing function header (old-style formal list?)
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(81): error C2653: 'Vector4': is not a class or namespace name
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(81): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(81): error C2365: 'kraEngineSDK::Vector4': redefinition; previous definition was 'function'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(11): note: see declaration of 'kraEngineSDK::Vector4'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(81): error C2146: syntax error: missing ';' before identifier '*'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(81): error C2143: syntax error: missing ';' before '{'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(81): error C2447: '{': missing function header (old-style formal list?)
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(92): error C2653: 'Vector4': is not a class or namespace name
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(92): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(92): error C2365: 'kraEngineSDK::Vector4': redefinition; previous definition was 'function'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(11): note: see declaration of 'kraEngineSDK::Vector4'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(92): error C2146: syntax error: missing ';' before identifier '/'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(92): error C2143: syntax error: missing ';' before '{'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(92): error C2447: '{': missing function header (old-style formal list?)
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(103): error C2653: 'Vector4': is not a class or namespace name
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(103): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(103): error C2143: syntax error: missing ',' before '&'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(103): error C2270: '|': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(105): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(105): error C2065: 'Vec': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(105): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(105): error C2065: 'z': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(105): error C2065: 'w': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(111): error C2653: 'Vector4': is not a class or namespace name
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(111): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(111): error C2365: 'kraEngineSDK::Vector4': redefinition; previous definition was 'function'
+  c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(11): note: see declaration of 'kraEngineSDK::Vector4'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(111): error C2146: syntax error: missing ';' before identifier '^'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(111): error C2143: syntax error: missing ';' before '{'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(111): error C2447: '{': missing function header (old-style formal list?)
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(118): error C2653: 'Vector4': is not a class or namespace name
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(118): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(118): error C2143: syntax error: missing ',' before '&'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(118): error C2270: '==': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(120): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(120): error C2065: 'Vec': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(120): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(120): error C2065: 'z': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(120): error C2065: 'w': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(125): error C2653: 'Vector4': is not a class or namespace name
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(125): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(125): error C2143: syntax error: missing ',' before '&'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(125): error C2270: '!=': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(126): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(126): error C2065: 'Vec': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(126): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(126): error C2065: 'z': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(126): error C2065: 'w': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(130): error C2653: 'Vector4': is not a class or namespace name
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(130): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(130): error C2143: syntax error: missing ',' before '&'
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(130): error C2270: '<': modifiers not allowed on nonmember functions
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(132): error C2065: 'x': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(132): error C2065: 'Vec': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(132): error C2065: 'y': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(132): error C2065: 'z': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(132): error C2065: 'w': undeclared identifier
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\src\kravector4.cpp(132): fatal error C1003: error count exceeds 100; stopping compilation
   kraWindowsMath.cpp
-c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
-c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
-c:\users\ivan\documents\uad\kraengine\krautilities\include\kraplatformdefines.h(293): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraplatformdefines.h(289): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraplatformdefines.h(291): warning C4615: #pragma warning: unknown user warning type
+c:\users\ivan\documents\uad\7mo cuatri\motores\kraengine\krautilities\include\kraplatformdefines.h(293): warning C4615: #pragma warning: unknown user warning type
+  Source.cpp
   Generating Code...
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector3.cpp(279): warning C4715: 'kraEngineSDK::Vector3::operator[]': not all control paths return a value
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector3.cpp(293): warning C4715: 'kraEngineSDK::Vector3::operator[]': not all control paths return a value
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector3.cpp(307): warning C4715: 'kraEngineSDK::Vector3::component': not all control paths return a value
-c:\users\ivan\documents\uad\kraengine\krautilities\src\kravector3.cpp(321): warning C4715: 'kraEngineSDK::Vector3::component': not all control paths return a value
->>>>>>> ccfd12573612010e6cc01d913baf0799a23a4e3f

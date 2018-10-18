@@ -176,6 +176,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="kraProfiler.cpp" />
     <ClCompile Include="src\kaPlane.cpp" />
     <ClCompile Include="src\kraAABB.cpp" />
     <ClCompile Include="src\kraBox2d.cpp" />
@@ -212,6 +213,7 @@
     <ClInclude Include="include\kraVector3.h" />
     <ClInclude Include="include\kraVector4.h" />
     <ClInclude Include="include\kraWindowsMath.h" />
+    <ClInclude Include="kraProfiler.h" />
     <ClInclude Include="kraStdheaders.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
