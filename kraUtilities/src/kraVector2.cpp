@@ -1,29 +1,17 @@
 #include "kraVector2.h"
-<<<<<<< HEAD
 #include "kraVector3.h"
 
 namespace kraEngineSDK {
-
-  inline Vector2::Vector2(const Vector3& Vec) {
-    /*x = Vec.x;
-    y = Vec.y;*/
-  }
-}
-
-=======
-
-namespace kraEngineSDK {
   /***************************************************************************/
- /**
-  * Funciones de Vector2
-  */
-  /***************************************************************************/
+  /**
+   * Funciones de Vector2
+   */
+   /***************************************************************************/
 
   Vector2::Vector2(float X, float Y) : x(X), y(Y) {}
 
   Vector2
     Vector2::operator+(const Vector2& Vec)const {
-
     Vector2 newVec;
     newVec.x = x + Vec.x;
     newVec.y = y + Vec.y;
@@ -33,7 +21,6 @@ namespace kraEngineSDK {
 
   Vector2
     Vector2::operator-(const Vector2& Vec)const {
-
     Vector2 newVec;
     newVec.x = x - Vec.x;
     newVec.y = y - Vec.y;
@@ -43,7 +30,6 @@ namespace kraEngineSDK {
 
   Vector2
     Vector2::operator*(float Val)const {
-
     Vector2 newVec;
     newVec.x = x * Val;
     newVec.y = y * Val;
@@ -53,7 +39,6 @@ namespace kraEngineSDK {
 
   Vector2
     Vector2::operator/(float Val)const {
-
     Vector2 newVec;
     newVec.x = x / Val;
     newVec.y = y / Val;
@@ -63,7 +48,6 @@ namespace kraEngineSDK {
 
   Vector2
     Vector2::operator+(float Val)const {
-
     Vector2 newVec;
     newVec.x = x + Val;
     newVec.y = y + Val;
@@ -72,8 +56,7 @@ namespace kraEngineSDK {
   }
 
   Vector2
-  Vector2::operator-(float Val)const {
-
+    Vector2::operator-(float Val)const {
     Vector2 newVec;
     newVec.x = x - Val;
     newVec.y = y - Val;
@@ -82,8 +65,7 @@ namespace kraEngineSDK {
   }
 
   Vector2
-  Vector2::operator*(const Vector2& Vec)const {
-
+    Vector2::operator*(const Vector2& Vec)const {
     Vector2 newVec;
     newVec.x = x * Vec.x;
     newVec.y = y * Vec.y;
@@ -92,8 +74,7 @@ namespace kraEngineSDK {
   }
 
   Vector2
-  Vector2::operator/(const Vector2& Vec)const {
-
+    Vector2::operator/(const Vector2& Vec)const {
     Vector2 newVec;
     newVec.x = x / Vec.x;
     newVec.y = y / Vec.y;
@@ -102,70 +83,72 @@ namespace kraEngineSDK {
   }
 
   float
-  Vector2::operator|(const Vector2& Vec)const {
+    Vector2::operator|(const Vector2& Vec)const {
 
     float escalar = (x * Vec.x) + (y * Vec.y);
 
     return escalar;
   }
 
-  Vector2
-  Vector2::operator^(const Vector2& Vec)const {
+  float
+    Vector2::operator^(const Vector2& Vec)const {
 
-    return Vector2((y * Vec.x - x * Vec.y), (x * Vec.y - y * Vec.x));
+    //Sacando eje de rotación 2D en un espacio 3D http://allenchou.net/2013/07/cross-product-of-2d-vectors/
+    float escalar = (x * Vec.y) - (y * Vec.x);
+
+    return escalar;
 
   }
 
   bool
-  Vector2::operator==(const Vector2& Vec) const {
+    Vector2::operator==(const Vector2& Vec) const {
 
     return x == Vec.x && y == Vec.y;
 
   }
 
   bool
-  Vector2::operator!=(const Vector2& Vec) const {
+    Vector2::operator!=(const Vector2& Vec) const {
     return x != Vec.x || y != Vec.y;
   }
 
   bool
-  Vector2::operator<(const Vector2& Vec) const {
+    Vector2::operator<(const Vector2& Vec) const {
 
     return x < Vec.x && y < Vec.y;
 
   }
 
   bool
-  Vector2::operator>(const Vector2& Vec) const {
+    Vector2::operator>(const Vector2& Vec) const {
     return x > Vec.x && y > Vec.y;
   }
 
   bool
-  Vector2::operator<=(const Vector2& Vec) const {
+    Vector2::operator<=(const Vector2& Vec) const {
 
     return x <= Vec.x && y <= Vec.y;
 
   }
 
   bool
-  Vector2::operator>=(const Vector2& Vec) const {
+    Vector2::operator>=(const Vector2& Vec) const {
 
     return x >= Vec.x && y >= Vec.y;
 
   }
 
   Vector2
-  Vector2::operator-() const {
+    Vector2::operator-() const {
 
     return Vector2(-x, -y);
 
   }
 
   Vector2&
-  Vector2::operator+=(const Vector2& Vec) {
+    Vector2::operator+=(const Vector2& Vec) {
     x += Vec.x;
     y += Vec.y;
-
     return *this;
   }
 
@@ -173,15 +156,13 @@ namespace kraEngineSDK {
     Vector2::operator-=(const Vector2& Vec) {
     x -= Vec.x;
     y -= Vec.y;
-
     return *this;
   }
-  
+
   Vector2&
     Vector2::operator*=(float Val) {
     x *= Val;
     y *= Val;
-
     return *this;
   }
 
@@ -189,7 +170,6 @@ namespace kraEngineSDK {
     Vector2::operator*=(const Vector2& Vec) {
     x *= Vec.x;
     y *= Vec.y;
-
     return *this;
   }
 
@@ -197,15 +177,13 @@ namespace kraEngineSDK {
     Vector2::operator/=(float Val) {
     x /= Val;
     y /= Val;
-
     return *this;
   }
 
-  Vector2&
+  Vector2
     Vector2::operator/=(const Vector2& Vec) {
     x /= Vec.x;
     y /= Vec.y;
-
     return *this;
   }
 
@@ -228,16 +206,14 @@ namespace kraEngineSDK {
     return V1 | V2;
   }
 
-  Vector2
+  float
     Vector2::cross(Vector2& V1, Vector2& V2) {
     return V1 ^ V2;
   }
 
   float
     Vector2::distance(const Vector2& V1, const Vector2& V2) {
-
     return kraMath::sqrt(kraMath::pow((V1.x - V2.x), 2.0f) + kraMath::pow((V1.y - V2.y), 2.0f));
-
   }
 
   void
@@ -303,4 +279,4 @@ namespace kraEngineSDK {
     }
   }
 }
->>>>>>> ccfd12573612010e6cc01d913baf0799a23a4e3f
+

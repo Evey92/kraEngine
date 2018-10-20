@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-#include "kreVector3.h"
-
-
-
-kreVector3::kreVector3()
-{
-}
-
-
-kreVector3::~kreVector3()
-{
-=======
 #include "kraVector3.h"
 
 
@@ -332,5 +319,4 @@ namespace kraEngineSDK {
       return z;
     }
   }
->>>>>>> ccfd12573612010e6cc01d913baf0799a23a4e3f
 }

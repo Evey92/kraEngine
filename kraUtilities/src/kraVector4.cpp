@@ -152,14 +152,14 @@ namespace kraEngineSDK {
 
   }
 
-  Vector4
+  Vector4&
     Vector4::operator-() const {
 
     return Vector4(-x, -y, -z, -w);
 
   }
 
-  Vector4
+  Vector4&
     Vector4::operator+=(const Vector4& Vec) {
     x += Vec.x;
     y += Vec.y;
@@ -168,7 +168,7 @@ namespace kraEngineSDK {
     return *this;
   }
 
-  Vector4
+  Vector4&
     Vector4::operator-=(const Vector4& Vec) {
     x -= Vec.x;
     y -= Vec.y;
@@ -177,7 +177,7 @@ namespace kraEngineSDK {
     return *this;
   }
 
-  Vector4
+  Vector4&
     Vector4::operator*=(float Val) {
     x *= Val;
     y *= Val;
@@ -186,7 +186,7 @@ namespace kraEngineSDK {
     return *this;
   }
 
-  Vector4
+  Vector4&
     Vector4::operator*=(const Vector4& Vec) {
     x *= Vec.x;
     y *= Vec.y;
@@ -195,7 +195,7 @@ namespace kraEngineSDK {
     return *this;
   }
 
-  Vector4
+  Vector4&
     Vector4::operator/=(float Val) {
     x /= Val;
     y /= Val;
@@ -204,7 +204,7 @@ namespace kraEngineSDK {
     return *this;
   }
 
-  Vector4
+  Vector4&
     Vector4::operator/=(const Vector4& Vec) {
     x /= Vec.x;
     y /= Vec.y;
@@ -214,7 +214,7 @@ namespace kraEngineSDK {
   }
 
   float
-    Vector4::lenght() const {
+  Vector4::lenght() const {
 
     return kraMath::sqrt(x*x + y * y + z * z + w * w);
 
