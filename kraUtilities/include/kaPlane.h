@@ -16,8 +16,9 @@ namespace kraEngineSDK {
 
    public:
     
-     float w;
+     float d; 
+     float n; 
   };
 
-  Plane::Plane(float X, float Y, float Z, float W) : x(X), y(Y), z(Z), w(W) {}
+  //Plane::Plane(float X, float Y, float Z, float W) : x(X), y(Y), z(Z), w(W) {}
 }

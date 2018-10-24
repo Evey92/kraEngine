@@ -72,6 +72,9 @@
     <ClInclude Include="kraSahderResourceView.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="kraGraphicsDXPrequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="kraDevice.cpp">
